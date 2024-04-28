@@ -1,56 +1,278 @@
-body {
-    font-family: 'Playfair Display', serif;
-    text-align: center;
+scroll-behavior: smooth;
+
+body{
+    margin: 0;
+    background-color: #A79277;
 }
 
-.fullscreen {
-    width: 100%;
-    height: 100vh;
+#hero{
+    background-color: #A79277;
+    color: #FFF2E1;
+    display: flex;
+}
+#aboutme{
+    background-color: #FFF2E1;
+    color:#A79277;
+    display: flex;
+    height: 400px;
+}
+#myskills{
+    background-color: #A79277;
+    color: #FFF2E1;
+    display: flex;
+    height: 500px;
+}
+#myachievements{
+    background-color: #FFF2E1;
+    color:#A79277;
+    display: flex;
+    height: 900px;
+}
+.myach1{
+    background-color: #FFF2E1;
+    color:#A79277;
+    display: flex;
+    height: 800px;
+}
+.myach2{
+    background-color: #FFF2E1;
+    color:#A79277;
+    display: flex;
+    height: 1100px;
+}
+.korobka{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    text-align: center;
-    background-size: cover;
-    background-position: center;
-    color: white;
-    padding: 20px;
+    width: 50%;
+    height: 95vh;
 }
+.korobka2{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 50%;
+    height: 95vh;
 
-#first {
-    background-image: url('background.png');
 }
+.korobka3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 60vh;
 
-#second {
-    background-image: url('background2.webp');
 }
+.korobka4{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 45%;
+    height: 70vh;
 
-div {
-    line-height: 1.4;
-    font-size: 16px;
-    top: 50%;
-    left: 50%;
 }
-
-h1 {
-    font-size: 120px;
-    margin: 10px 0;
+.korobka5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 75vh;
 }
+.korobka6{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 55%;
+    height: 50vh;
 
-h3 {
+}
+.korobka7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2000%;
+    height: 95vh;
+}
+.korobka8{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 1000%;
+    height: 75vh;
+
+}
+.korobka9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 60vh;
+
+}
+.korobka10{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 50%;
+    height: 70vh;
+
+}
+.korobka11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 75vh;
+}
+.korobka12{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 50%;
+    height: 50vh;
+
+}
+h1{
+    margin: 0;
+    font-size: 100px;
+}
+h2{
+    margin: 0;
     font-size: 50px;
-    margin: 5px 0;
+}
+h3{
+    margin: 0;
+    font-size: 30px;
+}
+.textcenter{
+    text-align: center;
 }
 
-p {
-    font-size: 25px;
-    margin: 5px 0;
-    padding-bottom: 20px;
+.textleft{
+    text-align: left;
 }
 
-a {
-    background-color: black;
-    color: white;
+.textright{
+    text-align: right;
+}
+
+img{
+    width: 80%;
+}
+.w50{
+    width: 30%;
+}
+input{
+    display: block;
+    margin: 30px 0;
+    width: 100%;
+    height: 30px;
+    font-size: 30px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: 0;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+#contactme{
+    padding: 50px;
+    color:#A79277;
+    background-color: #FFF2E1;
+    position: relative;
+    z-index: 3;
+}
+.m50{
+    margin: 50px;
+}
+
+
+/* Все про меню */
+.logo{
+    font-size: 30px;
     text-decoration: none;
-    padding: 10px 30px 10px 30px;
+    margin: 0 30px;
+    font-weight: 600;    
+}
+.link{
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0 30px;
+    color: #FFF2E1;
+}
+nav{
+    z-index: 100;
+    border: 1px solid #FFF2E1 ;
+    margin: 20px 50px;
+    border-radius: 50px;
+    width: calc(100% - 100px);
+    color: #FFF2E1;
+    background-color: #A79277;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    position: fixed;
+}
+a {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+a:hover {
+    background-size: 100% 2px;
+}
+/*#up{
+    z-index: 21;
+    background-image: url('strelka-removebg-preview.png');
+    width: 10px;
+    height: 10px;
+    position: fixed;
+}*/
+.right{
+    position: absolute;
+    right: 80px;
+}
+.btn{
+    padding: 10px 30px;
+    background-color: #EAD8C0;
+    border-radius: 30px;
+    color: black;
+}
+
+
+img{
+    z-index: 2;
+}
+
+#aboutme{
+    padding: 150px 0;
+}
+.w100{
+    width: 2000%;
+}
+.dflex{
+    display: flex;
+}
+
+.chiutnizhe{
+    margin-top: 450px;
+}
+
+.piatno{
+    z-index: 1;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    top: 500px;
+    left: 75%;
+    box-shadow: 0px 0px 300px 300px #ffffff ;
+}
+
+@media only screen and (max-width: 600px) {
+
 }
