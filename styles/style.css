@@ -1,168 +1,179 @@
-scroll-behavior: smooth;
-
-body{
-    margin: 0;
-    background-color: #A79277;
+html {
+    scroll-behavior: smooth;
 }
 
-#hero{
-    background-color: #A79277;
-    color: #FFF2E1;
+body {
+    margin: 0;
+    background-color: #a79277;
+}
+
+#hero {
+    background-color: #a79277;
+    color: #fff2e1;
     display: flex;
 }
-#aboutme{
-    background-color: #FFF2E1;
-    color:#A79277;
+
+#aboutme {
+    background-color: #fff2e1;
+    color: #a79277;
     display: flex;
     height: 400px;
 }
-#myskills{
-    background-color: #A79277;
-    color: #FFF2E1;
-    display: flex;
-    height: 500px;
-}
-#myachievements{
-    background-color: #FFF2E1;
-    color:#A79277;
+
+#myachievements {
+    background-color: #fff2e1;
+    color: #a79277;
     display: flex;
     height: 900px;
 }
-.myach1{
-    background-color: #FFF2E1;
-    color:#A79277;
+
+.myach1 {
+    background-color: #fff2e1;
+    color: #a79277;
     display: flex;
     height: 800px;
 }
-.myach2{
-    background-color: #FFF2E1;
-    color:#A79277;
+
+.myach2 {
+    background-color: #fff2e1;
+    color: #a79277;
     display: flex;
     height: 1100px;
 }
-.korobka{
+
+.korobka {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
     height: 95vh;
 }
-.korobka2{
+
+.korobka2 {
     display: flex;
     justify-content: center;
     align-items: end;
     width: 50%;
     height: 95vh;
-
 }
-.korobka3{
+
+.korobka3 {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
     height: 60vh;
-
 }
-.korobka4{
+
+.korobka4 {
     display: flex;
     justify-content: center;
     align-items: end;
     width: 45%;
     height: 70vh;
+}
 
-}
-.korobka5{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 30%;
-    height: 75vh;
-}
-.korobka6{
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    width: 55%;
-    height: 50vh;
-
-}
-.korobka7{
+.korobka7 {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 2000%;
     height: 95vh;
 }
-.korobka8{
+
+.korobka8 {
     display: flex;
     justify-content: center;
     align-items: end;
     width: 1000%;
     height: 75vh;
-
 }
-.korobka9{
+
+.korobka9 {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
     height: 60vh;
-
 }
-.korobka10{
+
+.korobka10 {
     display: flex;
     justify-content: center;
     align-items: end;
     width: 50%;
     height: 70vh;
-
 }
-.korobka11{
+
+.korobka11 {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
     height: 75vh;
 }
-.korobka12{
+
+.korobka12 {
     display: flex;
     justify-content: center;
     align-items: end;
     width: 50%;
     height: 50vh;
-
 }
-h1{
+
+/* .korobka13 {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 50%;
+    height: 50vh;
+}
+
+.korobka14 {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 50%;
+    height: 50vh;
+}
+
+.korobka15 {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 50%;
+    height: 50vh;
+} */
+
+h1 {
     margin: 0;
     font-size: 100px;
 }
-h2{
+
+h2 {
     margin: 0;
     font-size: 50px;
 }
-h3{
+
+h3 {
     margin: 0;
     font-size: 30px;
 }
-.textcenter{
+
+.textcenter {
     text-align: center;
 }
 
-.textleft{
-    text-align: left;
-}
-
-.textright{
-    text-align: right;
-}
-
-img{
+img {
     width: 80%;
+    z-index: 2;
 }
-.w50{
+
+.w50 {
     width: 30%;
 }
-input{
+
+input {
     display: block;
     margin: 30px 0;
     width: 100%;
@@ -172,107 +183,133 @@ input{
     border-radius: 30px;
     border: 0;
 }
-.center{
+
+.center {
     display: flex;
     justify-content: center;
 }
-#contactme{
+
+#contactme {
     padding: 50px;
-    color:#A79277;
-    background-color: #FFF2E1;
+    color: #a79277;
+    background-color: #fff2e1;
     position: relative;
     z-index: 3;
 }
-.m50{
+
+.m50 {
     margin: 50px;
 }
 
+.link {
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0 30px;
+    color: #fff2e1;
+}
 
-/* Все про меню */
-.logo{
-    font-size: 30px;
-    text-decoration: none;
-    margin: 0 30px;
-    font-weight: 600;    
-}
-.link{
-    font-size: 30px;
-    text-decoration: none;
-    margin: 0 30px;
-    color: #FFF2E1;
-}
-nav{
+nav {
     z-index: 100;
-    border: 1px solid #FFF2E1 ;
+    border: 1px solid #fff2e1;
     margin: 20px 50px;
     border-radius: 50px;
     width: calc(100% - 100px);
-    color: #FFF2E1;
-    background-color: #A79277;
+    color: #fff2e1;
+    background-color: #a79277;
     display: flex;
     align-items: center;
     height: 60px;
-    position: fixed;
 }
+
 a {
     text-decoration: none;
     background-image: linear-gradient(currentColor, currentColor);
     background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: 0% 2px;
-    transition: background-size .3s;
+    transition: background-size 0.3s;
 }
 
 a:hover {
     background-size: 100% 2px;
 }
-/*#up{
-    z-index: 21;
-    background-image: url('strelka-removebg-preview.png');
-    width: 10px;
-    height: 10px;
+
+#up {
+    background-image: url("images/strelka-removebg-preview.png");
+    right: 10px;
+    bottom: 10px;
+    width: 100px;
+    height: 100px;
     position: fixed;
-}*/
-.right{
+    background-size: cover;
+    z-index: 200;
+}
+
+.right {
     position: absolute;
     right: 80px;
 }
-.btn{
+
+.btn {
     padding: 10px 30px;
-    background-color: #EAD8C0;
+    background-color: #ead8c0;
     border-radius: 30px;
     color: black;
 }
 
-
-img{
-    z-index: 2;
-}
-
-#aboutme{
+#aboutme {
     padding: 150px 0;
 }
-.w100{
-    width: 2000%;
-}
-.dflex{
-    display: flex;
-}
 
-.chiutnizhe{
-    margin-top: 450px;
-}
-
-.piatno{
+.piatno {
     z-index: 1;
     position: absolute;
     width: 1px;
     height: 1px;
     top: 500px;
     left: 75%;
-    box-shadow: 0px 0px 300px 300px #ffffff ;
+    box-shadow: 0px 0px 300px 300px #ffffff;
 }
 
-@media only screen and (max-width: 600px) {
-
+.skill {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0;
 }
+
+.skill h2 {
+    margin: 0;
+    padding-right: 5px;
+    white-space: nowrap;
+    width: 200px;
+}
+
+.skill img {
+    width: 80px;
+    height: auto;
+    margin-left: 15px;
+}
+
+.skill img.yellow-filter {
+    filter: url(#yellow-colorize);
+}
+
+.korobka5,
+.korobka6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    height: 100%;
+}
+
+#myskills {
+    display: flex;
+    background-color: #a79277;
+    color: #fff2e1;
+    padding: 20px 0;
+}
+
+@media only screen and (max-width: 600px) {}

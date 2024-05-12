@@ -1,11 +1,32 @@
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css" />
 </head>
+
 <body>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="height: 0">
+        <defs>
+            <filter id="yellow-colorize">
+                <feColorMatrix type="matrix" values="
+                    1 0 0 0 0
+                    0 1 0 0 0
+                    0 0 1 0 0
+                    0 0 0 1 0" />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="1 1" />
+                    <feFuncG type="table" tableValues="1 0.8" />
+                    <feFuncB type="table" tableValues="0 0" />
+                </feComponentTransfer>
+            </filter>
+        </defs>
+    </svg>
+    <div id="up">
+        <img src="images/arrow.png" />
+    </div>
     <div class="piatno"></div>
     <nav>
         <a class="link" href="#hero">AlexKama</a>
@@ -24,88 +45,175 @@
             </div>
         </div>
         <div class="korobka2">
-            <img src="me.png">
+            <img src="images/me.png" />
         </div>
     </section>
     <section id="aboutme">
         <div class="korobka3">
-            <img src="chemistry.png">
+            <img src="images/chemistry.png" />
         </div>
         <div class="korobka4">
             <div class="textcenter">
-                <h3>I am a passionate chemistry lover and this fascinating subject fills my life with joy and curiosity. As soon as I picked up laboratory test tubes and reagents, I plunged into the exciting world of molecules and elements. Every experiment is an opportunity to expand your knowledge and open new horizons. I explore the properties of substances, study chemical reactions and find practical applications for the results obtained. Chemistry is not just a hobby for me, it is an art that helps me understand the world around me and contribute to science. In chemistry I find inspiration and a continuous desire for knowledge</h3>
+                <h3>
+                    I am a passionate chemistry lover and this fascinating subject fills
+                    my life with joy and curiosity. As soon as I picked up laboratory
+                    test tubes and reagents, I plunged into the exciting world of
+                    molecules and elements. Every experiment is an opportunity to expand
+                    your knowledge and open new horizons. I explore the properties of
+                    substances, study chemical reactions and find practical applications
+                    for the results obtained. Chemistry is not just a hobby for me, it
+                    is an art that helps me understand the world around me and
+                    contribute to science. In chemistry I find inspiration and a
+                    continuous desire for knowledge
+                </h3>
             </div>
         </div>
     </section>
     <section id="myskills">
         <div class="korobka5">
-            <div class="textcenter">
+            <div class="skill">
                 <h2>Chem</h2>
+                <img src="images/cat.png" class="yellow-filter" />
+                <img src="images/cat.png" class="yellow-filter" />
+                <img src="images/cat.png" class="yellow-filter" />
+                <img src="images/cat.png" class="yellow-filter" />
+                <img src="images/cat.png" />
+            </div>
+            <div class="skill">
                 <h2>Math</h2>
+                <img src="images/cat.png" class="yellow-filter" />
+                <img src="images/cat.png" class="yellow-filter" />
+                <img src="images/cat.png" class="yellow-filter" />
+                <img src="images/cat.png" />
+                <img src="images/cat.png" />
+            </div>
+            <div class="skill">
                 <h2>BS</h2>
+                <img src="images/cat.png" class="yellow-filter" />
+                <img src="images/cat.png" class="yellow-filter" />
+                <img src="images/cat.png" class="yellow-filter" />
+                <img src="images/cat.png" class="yellow-filter" />
+                <img src="images/cat.png" />
             </div>
         </div>
         <div class="korobka6">
-            <div class="textcenter">
+            <div class="skill">
                 <h2>Design</h2>
+                <img src="images/cat.png" class="yellow-filter" />
+                <img src="images/cat.png" class="yellow-filter" />
+                <img src="images/cat.png" class="yellow-filter" />
+                <img src="images/cat.png" />
+                <img src="images/cat.png" />
+            </div>
+            <div class="skill">
                 <h2>C++</h2>
+                <img src="images/cat.png" class="yellow-filter" />
+                <img src="images/cat.png" class="yellow-filter" />
+                <img src="images/cat.png" class="yellow-filter" />
+                <img src="images/cat.png" class="yellow-filter" />
+                <img src="images/cat.png" />
+            </div>
+            <div class="skill">
                 <h2>CSS</h2>
+                <img src="images/cat.png" class="yellow-filter" />
+                <img src="images/cat.png" class="yellow-filter" />
+                <img src="images/cat.png" class="yellow-filter" />
+                <img src="images/cat.png" />
+                <img src="images/cat.png" />
             </div>
         </div>
     </section>
     <section id="myachievements">
         <div class="korobka7">
-            <img src="Stemco.png">
+            <img src="images/stemco.png" />
         </div>
         <div class="korobka8">
             <div class="textcenter">
-                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+                <h3>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                </h3>
             </div>
         </div>
     </section>
     <section class="myach1">
         <div class="korobka9">
             <div class="textcenter">
-                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+                <h3>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                </h3>
             </div>
         </div>
         <div class="korobka10">
-            <img src="sibir.jpg">
+            <img src="images/sibir.jpg" />
         </div>
     </section>
     <section class="myach2">
-        <div class="korobk11">
-            <img src="daryn.jpg">
+        <div class="korobka11">
+            <img src="images/daryn.jpg" />
         </div>
         <div class="korobka12">
             <div class="textcenter">
-                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+                <h3>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                </h3>
             </div>
         </div>
     </section>
+    <section class="myach2">
+        <div class="korobka13">
+            <img src="images/blog1.png" />
+        </div>
+        <div class="korobka14">
+            <img src="images/blog2.png" />
+        </div>
+        <div class="korobka15">
+            <img src="images/blog3.png" />
+        </div>
+    </section>
     <section id="contactme">
-        <div class="textcenter ">
+        <div class="textcenter">
             <h1>Contact me</h1>
         </div>
         <div class="center m50">
             <div class="w50">
                 <h3>Name</h3>
                 <div class="center">
-                    <input type="" placeholder="Enter your name" name="">
-                </div>
-                <h3>Surname</h3>
-                <div class="center">
-                    <input type="" placeholder="Enter your surname"  name="">
+                    <input type="text" placeholder="Enter your name" name="name" />
                 </div>
                 <h3>Email</h3>
                 <div class="center">
-                    <input type="" placeholder="Enter your email"  name="">
+                    <input type="email" placeholder="Enter your email" name="email" />
                 </div>
-                <h3>Password</h3>
+                <h3>Message</h3>
                 <div class="center">
-                    <input type="" placeholder="Enter password"  name="">
+                    <textarea placeholder="Enter your message" name="message" rows="4"></textarea>
+                </div>
+                <div class="center">
+                    <button type="submit">Send Message</button>
                 </div>
             </div>
-        </div>  
+        </div>
     </section>
+
+    <script src="scripts/up.js"></script>
+</body>
+
 </html>
